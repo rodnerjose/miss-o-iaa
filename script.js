@@ -38,3 +38,6 @@ for (const alternativa of perguntaAtual.alternativas) {
 
 mostraPergunta();
 ];
+const botaoAlternativas = document.createElement("button");
+botaoAlternativas.textContent = alternativa;
+caixaAlternativas.appendChild(botaoAlternativas);
